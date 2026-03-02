@@ -8,8 +8,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
       <Router>
+      <Header />
         <Routes>
           <Route path="/" element={<ShopPage />} />
           <Route path="/cart" element={<CartPage />} />
